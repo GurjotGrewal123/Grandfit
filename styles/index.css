@@ -5,7 +5,7 @@
 .main-page {
     margin-top: -300px;
     height: 1100px;
-    background-image: url(/images/main-page-image.jpg);
+    background-image: url(images/main-page-image.jpg);
     background-position: center;
     font-family: 'Source Sans Pro', sans-serif;
     background-size: cover;

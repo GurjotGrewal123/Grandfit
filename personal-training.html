@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Personal Training</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/personal-training.css">
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <a class="navbar-logo" href="index.html"><img src="/images/navbar-logo.svg" alt="GrandFit"></a>
+
+            <div class="navbar-pages">
+                <ul class="navbar-links">
+                    <li><a href="classes.html" id="navbar-classes">Classes</a></li>
+                    <li><a href="personal-training.html" id="navbar-training">Personal Training</a></li>
+                    <li><a href="trainers.html" id="navbar-trainers">Trainers & Coaches</a></li>
+                    <li><a href="contact.html" id="navbar-contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <ul class="navbar-links">
+                <li class="navbar-book-now">
+                    <a class="navbar-book-btn" href="book.html">Book Now</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="training-page">
+
+        <div class="row">
+            <div class="col-sm-3 mb-3 mb-sm-0">
+                <div class="card d-flex flex-column">
+                    <img src="/images/basketball-class.webp" class="card-img-top" alt=".">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Basketball</h5>
+                        <p class="card-text">Unleash your basketball potential with our tailored personal training
+                            sessions led by skilled coaches, where you'll refine your skills, boost your athleticism,
+                            and gain a competitive edge on the court.</p>
+                        <div class="mt-auto">
+                            <a id="basketball-btn" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card d-flex flex-column">
+                    <img src="/images/weight-training-aesthetic.jpeg" class="card-img-top" alt=".">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Weight-Training</h5>
+                        <p class="card-text">Build strength with our customized
+                            weight-training personal training sessions led by experienced trainers, where you'll sculpt
+                            your muscles, improve your form, and achieve your fitness goals faster.
+                        </p>
+                        <div class="mt-auto">
+                            <a id="weight-btn" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="card d-flex flex-column">
+                    <img src="/images/calesthinics-class.jpeg" class="card-img-top" alt=".">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Calisthenics</h5>
+                        <p class="card-text">Master bodyweight exercises with our customized
+                            calisthenics personal training sessions led by experienced trainers, where you'll
+                            improve your form, and accelerate your progress towards achieving your fitness goals.
+                        </p>
+                        <div class="mt-auto">
+                            <a id="calisthenics-btn" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-3">
+                <div class="card d-flex flex-column">
+                    <img src="/images/football-class.jpeg" class="card-img-top" alt=".">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Football</h5>
+                        <p class="card-text">Enhance your football skills with our customized
+                            personal training sessions led by experienced coaches. Refine your
+                            technique and accelerate your progress towards achieving your goals.
+                        </p>
+                        <div class="mt-auto">
+                            <a id="football-btn" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closeButton">&times;</span>
+            <div class="class-name">
+                <h3>Placeholder</h3>
+            </div>
+
+            <div class="class-price">
+                Price: $100
+            </div>
+
+            <div class="desc-section">
+                <div class="class-description">
+                    This is the content of the popup.
+                </div>
+
+                <div class="progress-img">
+                    <img src="/images/progress-class.png">
+                </div>
+            </div>
+
+            <div class="book">
+                <a class="navbar-book-btn" href="book.html">Book Now</a>
+            </div>
+
+        </div>
+
+        <script src="/javascript/training.js"></script>
+
+</body>
+
+</head>
+
+</html>

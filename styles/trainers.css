@@ -1,0 +1,109 @@
+body {
+    background: #032340;
+}
+
+.trainers-page {
+    margin-top: -300px;
+    height: 900px;
+    background-image: url(/images/trainers-background.jpg);
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.heading {
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.image-container {
+    padding-top: 300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    margin: 2px 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #89BAD9;
+    transition: 1s;
+}
+
+.image:hover {
+    border: 3px solid #fff;
+    cursor: pointer;
+}
+
+.image img {
+    object-fit: cover;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+}
+
+.info-container {
+    width: 1100px;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px black;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.info {
+    color: white;
+    font-weight: 300;
+}
+
+.profile {
+    object-fit: cover;
+    width: 250px;
+    height: 325px;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0;
+    align-items: left;
+}
+
+.name {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.status {
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about {
+    height: 240px;
+    padding: 0px 20px;
+}

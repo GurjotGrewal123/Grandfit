@@ -1,0 +1,111 @@
+/* NAVBAR*/
+.navbar {
+    height: 90px;
+    min-width: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    top: 0;
+    z-index: 999;
+    position: sticky;
+    background-color: rgb(0 0 0 / 15%);
+    box-shadow: 0px 8px 10px rgb(0 0 0 / 40%);
+    transition: 0.5s;
+    backdrop-filter: blur(8px);
+}
+
+nav.hide {
+    transform: translateY(-100%);
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 30px;
+}
+
+.navbar-logo {
+    width: 100%;
+    height: 100%;
+    transform: translateY(10px);
+    background: none;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    height: 100%;
+}
+
+.navbar-links ul,
+li,
+a {
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+    padding: 0 0.4rem;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    transition: text-shadow 0.5s;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.navbar-links li {
+    display: table-cell;
+}
+
+.navbar-links a:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.navbar-links a:hover {
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-logo {
+    max-width: 70px;
+    max-height: 45px;
+}
+
+.navbar-book-now {
+    padding-top: 8px;
+}
+
+.navbar-book-btn {
+    transition: 0.5s ease-in-out;
+    border: 2px solid white;
+    padding: 10px;
+    padding-inline: 20px;
+    overflow: hidden;
+    transition: all 300ms ease;
+    text-shadow: 1px 2px rgb(0 0 0 / 45%);
+}
+
+.navbar-book-btn:hover {
+    background-color: gold;
+    z-index: 10;
+    font-weight: 600;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.4);
+    border: 2px solid gold;
+}
+
+.navbar-book-btn:hover::after {
+    left: -100%;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Book Now</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/book.css">
+
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <a class="navbar-logo" href="index.html"><img src="/images/navbar-logo.svg" alt="GrandFit"></a>
+
+            <div class="navbar-pages">
+                <ul class="navbar-links">
+                    <li><a href="classes.html" id="navbar-classes">Classes</a></li>
+                    <li><a href="personal-training.html" id="navbar-training">Personal Training</a></li>
+                    <li><a href="trainers.html" id="navbar-trainers">Trainers & Coaches</a></li>
+                    <li><a href="contact.html" id="navbar-contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <ul class="navbar-links">
+                <li class="navbar-book-now">
+                    <a class="navbar-book-btn" href="book.html">Book Now</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="book-section">
+
+        <div class="list-group">
+            <button type="button" class="list-group-item list-group-item-action active">BASKETBALL</button>
+            <button type="button" class="list-group-item list-group-item-action">FOOTBALL</button>
+            <button type="button" class="list-group-item list-group-item-action">MUAY THAI</button>
+            <button type="button" class="list-group-item list-group-item-action">DANCE / CARDIO</button>
+            <button type="button" class="list-group-item list-group-item-action">WEIGHT-TRAINING</button>
+            <button type="button" class="list-group-item list-group-item-action">CALISTHENICS</button>
+        </div>
+        =
+        <div class="book-info">
+            <div class="time-input">
+                <select class="form-select" aria-label="Default select example" required>
+                    <option selected>Select the date.</option>
+                    <option value="June 16th, 2023">June 16th, 2023</option>
+                    <option value="June 17th, 2023">June 17th, 2023</option>
+                    <option value="datJune 18th, 2023e3">June 18th, 2023</option>
+                    <option value="June 19th, 2023">June 19th, 2023</option>
+                    <option value="June 20th, 2023">June 20th, 2023</option>
+                </select>
+                <select class="form-select" aria-label="Default select example" required>
+                    <option selected>Select the time.</option>
+                    <option value="9:00am">9:00am</option>
+                    <option value="11:00am">11:00am</option>
+                    <option value="1:00pm">1:00pm</option>
+                    <option value="3:00pm">3:00pm</option>
+                </select>
+            </div>
+
+            <div class="trainer-input">
+                <select class="form-select" aria-label="Default select example" required>
+                    <option selected>Select your trainer.</option>
+                    <option value="Kobe Bryant">Kobe Bryant</option>
+                    <option value="Lebron James">Lebron James</option>
+                    <option value="Kawhi Leonard">Kawhi Leonard</option>
+                    <option value="Kevin Durant">Kevin Durant</option>
+                    <option value="Jimmy Butler">Jimmy Butler</option>
+                </select>
+            </div>
+
+            <div class="name-input">
+                <input type="text" class="form-control" placeholder="Full Name" aria-label="Full Name"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="email-input">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Email"
+                    aria-describedby="basic-addon1">
+            </div>
+            <div class="phone-input">
+                <input type="text" class="form-control" placeholder="Phone Number" aria-label="Phone Number"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="confirm-btn">
+                <li class="navbar-book-now">
+                    <a class="navbar-book-btn" id="booking-confirm">Confirm</a>
+                </li>
+            </div>
+
+        </div>
+
+        <div class="confirm-info">
+            <div class="confirm-msg">YOUR BOOKING HAS BEEN CONFIRMED</div>
+            <div class="thanks-msg">Thank you for choosing GrandFit as your fitness partner! We're thrilled that you've
+                booked a session with us and we can't wait to embark on this exciting fitness journey together.
+
+                At GrandFit, our dedicated team of fitness experts is committed to providing you with top-notch
+                training, personalized guidance, and a welcoming environment. We're passionate about helping you achieve
+                your fitness goals and unlocking your full potential.
+
+                Rest assured, you've made a great decision by choosing GrandFit. We'll work closely with you, tailoring
+                each session to your specific needs and preferences. Whether you're aiming to improve strength, enhance
+                flexibility, boost endurance, or simply lead a healthier lifestyle, we'll be right by your side, every
+                step of the way.
+
+                If you have any questions or need further assistance, please don't hesitate to reach out to our friendly
+                team. We're here to ensure you have a remarkable fitness experience.</div>
+            <div class="confirm-receipt">
+                <div class="booking-type">Placeholder</div>
+                <div class="service-type">Placeholder</div>
+                <div class="trainer-type">Placeholder</div>
+                <div class="name-type">Placeholder</div>
+                <div class="date-type">Placeholder</div>
+                <div class="time-type">Placeholder</div>
+            </div>
+            <div class="return-btn">
+                <li class="navbar-book-now">
+                    <a class="navbar-book-btn" id="booking-confirm" href="book.html">Return</a>
+                </li>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="/javascript/book.js"></script>
+
+</body>
+
+</head>
+
+</html>

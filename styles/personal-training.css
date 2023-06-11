@@ -1,0 +1,103 @@
+.training-page {
+    margin-top: -300px;
+    height: 1000px;
+    background-image: url(/images/personal-training-page.jpg);
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.row {
+    margin-top: 350px;
+    padding: 20px;
+}
+
+.card {
+    height: 30rem;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    transition: 0.5s;
+    color: white;
+    font-weight: 300;
+}
+
+.card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.popup-content {
+    background-color: rgb(0 0 0 / 65%);
+    border-radius: 10px;
+    height: 35rem;
+    width: 60rem;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 40px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+.class-name {
+    padding-top: 15px;
+    letter-spacing: 4px;
+}
+
+.progress-img img {
+    height: 300px;
+}
+
+.desc-section {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.class-price {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.class-description {
+    flex: 1;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.progress-img {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.book {
+    padding-top: 20px;
+}
+
+.class-name {
+    font-size: 35px;
+}

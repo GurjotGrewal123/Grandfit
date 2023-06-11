@@ -1,0 +1,103 @@
+.classes-page {
+    margin-top: -300px;
+    height: 900px;
+    background-image: url(/images/muay-thai-background.jpg);
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.classes-group {
+    margin-top: 300px;
+}
+
+.list-group {
+    height: 87vh;
+    padding: 60px;
+}
+
+.class-item {
+    height: 87vh;
+    background-color: transparent;
+    color: white;
+}
+
+.item-content {
+    backdrop-filter: blur(10px);
+    height: 30vh;
+    padding: 20px;
+    font-weight: 300;
+    transition: 1s;
+    display: flex;
+}
+
+.item-content:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.flex-content {
+    padding-top: 10px;
+    display: flex;
+}
+
+.class-name {
+    min-width: 150px;
+}
+
+.main-info {
+    padding-right: 20px;
+    max-width: 400px;
+    min-width: 150px;
+}
+
+.desc-info {
+    padding-right: 20px;
+    max-width: 700px;
+    min-width: 400px;
+}
+
+.image-info img {
+    max-width: 300px;
+    max-height: 170px;
+    border-radius: 3px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    color: white;
+}
+
+.popup-content {
+    background-color: rgb(0 0 0 / 65%);
+    border-radius: 10px;
+    height: 10rem;
+    width: 30rem;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 40px;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+}
+
+.button {
+    padding-top: 10px;
+}

@@ -1,7 +1,7 @@
 .book-section {
     margin-top: -200px;
     height: 117vh;
-    background-image: url(images/booking.jpeg);
+    background-image: url(../images/booking.jpeg);
     background-position: center;
     font-family: 'Source Sans Pro', sans-serif;
     background-size: cover;

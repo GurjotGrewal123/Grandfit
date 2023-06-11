@@ -5,7 +5,7 @@ body {
 .trainers-page {
     margin-top: -300px;
     height: 900px;
-    background-image: url(images/trainers-background.jpg);
+    background-image: url(../images/trainers-background.jpg);
     background-position: center;
     font-family: 'Source Sans Pro', sans-serif;
     background-size: cover;

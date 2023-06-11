@@ -1,5 +1,5 @@
 function fetch_info(i) {
-    let profile = ["../images/kobe.png", "../images/lebron.png", "../images/jimmy.png", "../images/durant.png", "../images/kawhi-leonard.png"];
+    let profile = ["images/kobe.png", "images/lebron.png", "images/jimmy.png", "images/durant.png", "images/kawhi-leonard.png"];
     let name = [
         "Kobe Bryant",
         "Lebron James",
